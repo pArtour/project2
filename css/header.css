@@ -1,3 +1,15 @@
-.logo-wrapper {
+.display {
+    display: block;
+}
+
+
+.header__wrapper {
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu__list {
+    display: flex;
+
 }
