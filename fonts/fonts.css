@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Microsoft New Tai Lue';
+    src: url('fonts/subset-MicrosoftNewTaiLue.eot');
+    src: url('fonts/subset-MicrosoftNewTaiLue.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-MicrosoftNewTaiLue.woff2') format('woff2'),
+        url('fonts/subset-MicrosoftNewTaiLue.woff') format('woff'),
+        url('fonts/subset-MicrosoftNewTaiLue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('fonts/subset-ArialRoundedMTBold.eot');
+    src: url('fonts/subset-ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-ArialRoundedMTBold.woff2') format('woff2'),
+        url('fonts/subset-ArialRoundedMTBold.woff') format('woff'),
+        url('fonts/subset-ArialRoundedMTBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('fonts/subset-LucidaSans.eot');
+    src: url('fonts/subset-LucidaSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-LucidaSans.woff2') format('woff2'),
+        url('fonts/subset-LucidaSans.woff') format('woff'),
+        url('fonts/subset-LucidaSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Microsoft Sans Serif';
+    src: url('fonts/subset-MicrosoftSansSerif.eot');
+    src: url('fonts/subset-MicrosoftSansSerif.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-MicrosoftSansSerif.woff2') format('woff2'),
+        url('fonts/subset-MicrosoftSansSerif.woff') format('woff'),
+        url('fonts/subset-MicrosoftSansSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('fonts/subset-ACaslonPro-Regular.eot');
+    src: url('fonts/subset-ACaslonPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-ACaslonPro-Regular.woff2') format('woff2'),
+        url('fonts/subset-ACaslonPro-Regular.woff') format('woff'),
+        url('fonts/subset-ACaslonPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
