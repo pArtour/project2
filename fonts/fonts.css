@@ -52,3 +52,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ArialMT';
+    src: url('fonts/ArialMT.eot');
+    src: url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ArialMT.woff2') format('woff2'),
+        url('fonts/ArialMT.woff') format('woff'),
+        url('fonts/ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

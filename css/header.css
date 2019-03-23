@@ -50,46 +50,50 @@
 
 .phone {
     align-self: flex-end;
-
 }
 
 .phone__tel {
-    color:#fff;
+    color: #fff;
     font-family: 'Adobe Caslon Pro';
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .menu__main {
     background: #fff url('../img/bg/menu-bg.png') no-repeat center center /cover;
     border-bottom: 4px solid #4b83a6;
     z-index: -100;
 }
+
 .menu__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 13px;
-    padding-bottom: 10px;
     font-family: 'Microsoft Sans Serif';
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-
 }
+
 .menu__wrapper a {
     color: #3a5362;
 }
+
 .menu__list {
     display: flex;
 }
+
 .menu__list__item {
     display: block;
     margin-right: 46px;
 }
+
 .menu__link {
+    padding-top: 10px;
+    padding-bottom: 5px;
     position: relative;
-    display:block;
+    display: block;
     padding-left: 10px;
     padding-right: 10px;
     transition: all 0.3s ease-in;
@@ -98,13 +102,15 @@
     -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
 }
-.menu__link:hover{
-    color:#4b83a6;
+
+.menu__link:hover {
+    color: #4b83a6;
 }
 
 .reg {
     letter-spacing: 1.2px;
 }
-.sign-in, .sign-up:hover{
+
+.sign__link:hover {
     color: #3a5362;
 }

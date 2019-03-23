@@ -5,19 +5,21 @@
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!------------------------ Без Bootstrap -------------------------->
+    <!--------------------------- Без Bootstrap ------------------------------->
 
-<!--------------------   Fotorama CSS   ------------------------------>
+<!---------------------------   Fotorama CSS   -------------------------------->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-<!------------------------- Fonts  ---------------------------------->
+<!---------------------------------- Fonts  ----------------------------------->
     <link rel="stylesheet" href="fonts/fonts.css">
- <!------------------Библиотека nornalize--------------------------->
+ <!----------------------------Библиотека nornalize---------------------------->
     <link rel="stylesheet" href="css/normalize.css">
- <!---------------------Библиотека animate------------------------->
+ <!-----------------------------Библиотека animate----------------------------->
     <link rel="stylesheet" href="css/animate.css">
 <!---------------------------Файл Header'a------------------------------------->
     <link rel="stylesheet" href="css/header.css">
- <!------------------  Основной файл style.css  ------------------->
+<!------------------------Файл второй секции----------------------------------->
+    <link rel="stylesheet" href="css/search.css">
+ <!------------------------  Основной файл style.css  ------------------------->
     <link rel="stylesheet" href="css/style.css">
     <title>Realestate Company</title>
 </head>
@@ -27,9 +29,9 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="logo-wrapper">
-                     <img src="img/icons/logo.png" alt="Logo" class="logo">
-                    <div class="logo__title">Realestate Company</div>
-                    <div class="logo__text">Lorem Ipsum is simply dummy text</div>
+                     <img title="Realestate Company" src="img/icons/logo.png" alt="Logo" class="logo">
+                    <div  class="logo__title">Realestate Company</div>
+                    <div class="logo__Select one">Lorem Ipsum is simply dummy text</div>
                  </div>
                 <div class="phone">
                      <a href="tel:+2142277669" class="phone__tel">Call us: (214) 227-7669</a>
@@ -58,14 +60,101 @@
                          </ul>
                      </nav>
                     <div class="reg">
-                        <a href="#" class="sign-in">Sign in</a>
+                        <a href="#" class="sign__link">Sign in</a>
                                     /
-                        <a href="" class="sign-up">Sign up</a>
+                        <a href="#" class="sign__link">Sign up</a>
                      </div>
                 </div>
             </div>
         </div>
     </header>
+
+
+    <!------------------------------ Section 2 -------------------------------->
+    <section class="section-search" id="section">
+        <div class="container">
+            <div class="search-wrapper">
+                <div class="slider-wrapper">
+                    <div class="fotorama"  data-click="false" data-swipe="false" data-arrows="false">
+                        <div class="slider-offer-wrapper">
+                            <div class="slider-img-wrapper">
+                                <img src="img/img/slider-img.jpg" alt="House 1 " class="slider-img">
+                            </div>
+                            <div class="slider-text-wrapper">
+                                <h2 class="slider__title">Lorem Ipsum is simply dummy text of </h2>
+                                <p class="slider__text">We work with investors to make managing your investments easy!</p>
+                            </div>
+                        </div>
+                        <div class="slider-offer-wrapper">
+                            <div class="slider-img-wrapper">
+                                <img src="img/img/slider-img.jpg" alt="House 2 " class="slider-img">
+                            </div>
+                            <div class="slider-text-wrapper">
+                                <h2 class="slider__title">Lorem Ipsum is simply dummy text of </h2>
+                                <p class="slider__text">We work with investors to make managing your investments easy!</p>
+                            </div>
+                        </div>
+                        <div class="slider-offer-wrapper">
+                            <div class="slider-img-wrapper">
+                                <img src="img/img/slider-img.jpg" alt="House 3 " class="slider-img">
+                            </div>
+                            <div class="slider-text-wrapper">
+                                <h2 class="slider__title">Lorem Ipsum is simply dummy text of </h2>
+                                <p class="slider__text">We work with investors to make managing your investments easy!</p>
+                            </div>
+                        </div>
+                        <div class="slider-offer-wrapper">
+                            <div class="slider-img-wrapper">
+                                <img src="img/img/slider-img.jpg" alt="House 4 " class="slider-img">
+                            </div>
+                            <div class="slider-text-wrapper">
+                                <h2 class="slider__title">Lorem Ipsum is simply dummy text of </h2>
+                                <p class="slider__text">We work with investors to make managing your investments easy!</p>
+                            </div>
+                        </div>
+                        <div class="slider-offer-wrapper">
+                            <div class="slider-img-wrapper">
+                                <img src="img/img/slider-img.jpg" alt="House 5 " class="slider-img">
+                            </div>
+                            <div class="slider-text-wrapper">
+                                <h2 class="slider__title">Lorem Ipsum is simply dummy text of </h2>
+                                <p class="slider__text">We work with investors to make managing your investments easy!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-form-wrapper">
+                    <button class="switcher">Tenants</button>
+                    <button class="switcher">Oweners</button>
+                    <form action="#" class="searc__form">
+                        <label for="address" class="form__address-heading">Address, Suburbs, Postcodes, or Regions</label>
+                        <input type="text" name="Address" class="form__address" id="address">
+                        <input type="checkbox" name="Check" class="form__checkbox" id="checkbox" >
+                        <label for="checkbox" class="checkbox__desc">Include surrounding suburbs</label>
+                        <div class="select__wrapper">
+                            <label class="select__desc" for="select-one">Property Type :</label>
+                            <select placeholder="Select one" id="select-one" class="first-select">
+                                <option>Select one 1</option>
+                                <option>Select one 2</option>
+                                <option>Select one 3</option>
+                                <option>Select one 4</option>
+                                <option>Select one 5</option>
+                            </select>
+                            <label class="select__desc" for="select-two">Bedrooms :</label>
+                            <select placeholder="Select one" id="select-two" class="second-select">
+                                <option>Select one 1</option>
+                                <option>Select one 2</option>
+                                <option>Select one 3</option>
+                                <option>Select one 4</option>
+                                <option>Select one 5</option>
+                            </select>
+                        </div>
+                        <button class="form__button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
 
@@ -84,8 +173,7 @@
     <script src="js/wow.min.js"></script>
     <!-- Fotorama libs -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-    <script>
-         new WOW().init();
-    </script>
+ 
+    <script src="js/main.js"></script>
 </body>
 </html>
