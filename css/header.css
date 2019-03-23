@@ -2,14 +2,109 @@
     display: block;
 }
 
-
 .header__wrapper {
     display: flex;
     justify-content: space-between;
-    
+    padding-bottom: 10px;
 }
 
 .menu__list {
     display: flex;
+}
 
+.header {
+    background: #4d84a7 url('../img/bg/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo-wrapper {
+    position: relative;
+    padding-top: 44px;
+    color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.logo__title {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Adobe Caslon Pro';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.logo__text {
+    margin-left: 30px;
+    font-family: 'Microsoft New Tai Lue';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.phone {
+    align-self: flex-end;
+
+}
+
+.phone__tel {
+    color:#fff;
+    font-family: 'Adobe Caslon Pro';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.menu__main {
+    background: #fff url('../img/bg/menu-bg.png') no-repeat center center /cover;
+    border-bottom: 4px solid #4b83a6;
+    z-index: -100;
+}
+.menu__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    font-family: 'Microsoft Sans Serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.menu__wrapper a {
+    color: #3a5362;
+}
+.menu__list {
+    display: flex;
+}
+.menu__list__item {
+    display: block;
+    margin-right: 46px;
+}
+.menu__link {
+    position: relative;
+    display:block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.menu__link:hover{
+    color:#4b83a6;
+}
+
+.reg {
+    letter-spacing: 1.2px;
+}
+.sign-in, .sign-up:hover{
+    color: #3a5362;
 }
