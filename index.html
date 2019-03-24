@@ -31,7 +31,7 @@
                 <div class="logo-wrapper">
                      <img title="Realestate Company" src="img/icons/logo.png" alt="Logo" class="logo">
                     <div  class="logo__title">Realestate Company</div>
-                    <div class="logo__Select one">Lorem Ipsum is simply dummy text</div>
+                    <div class="logo__text">Lorem Ipsum is simply dummy text</div>
                  </div>
                 <div class="phone">
                      <a href="tel:+2142277669" class="phone__tel">Call us: (214) 227-7669</a>
@@ -75,7 +75,7 @@
         <div class="container">
             <div class="search-wrapper">
                 <div class="slider-wrapper">
-                    <div class="fotorama"  data-click="false" data-swipe="false" data-arrows="false">
+                    <div class="fotorama" data-width="510px" data-height ="345px" data-click="false" data-swipe="false" data-arrows="false">
                         <div class="slider-offer-wrapper">
                             <div class="slider-img-wrapper">
                                 <img src="img/img/slider-img.jpg" alt="House 1 " class="slider-img">
@@ -126,27 +126,31 @@
                 <div class="search-form-wrapper">
                     <button class="switcher">Tenants</button>
                     <button class="switcher">Oweners</button>
-                    <form action="#" class="searc__form">
+                    <form action="#" class="search__form">
                         <label for="address" class="form__address-heading">Address, Suburbs, Postcodes, or Regions</label>
-                        <input type="text" name="Address" class="form__address" id="address">
-                        <input type="checkbox" name="Check" class="form__checkbox" id="checkbox" >
-                        <label for="checkbox" class="checkbox__desc">Include surrounding suburbs</label>
+                        <input type="text" name="Address" class="form__address" id="address" placeholder="Example: Wichita Falls, Texas 76301">
+                        <div class="checkbox__wrapper">
+                            <input type="checkbox" name="Check" class="form__checkbox" id="checkbox">
+                            <label for="checkbox" class="checkbox__desc">Include surrounding suburbs</label>
+                        </div>
                         <div class="select__wrapper">
                             <label class="select__desc" for="select-one">Property Type :</label>
                             <select placeholder="Select one" id="select-one" class="first-select">
-                                <option>Select one 1</option>
-                                <option>Select one 2</option>
-                                <option>Select one 3</option>
-                                <option>Select one 4</option>
-                                <option>Select one 5</option>
+                                <option class ="select__option">Select one 1</option>
+                                <option class ="select__option">Select one 2</option>
+                                <option class ="select__option">Select one 3</option>
+                                <option class ="select__option">Select one 4</option>
+                                <option class ="select__option">Select one 5</option>
                             </select>
+                        </div>
+                        <div class="select__wrapper">
                             <label class="select__desc" for="select-two">Bedrooms :</label>
                             <select placeholder="Select one" id="select-two" class="second-select">
-                                <option>Select one 1</option>
-                                <option>Select one 2</option>
-                                <option>Select one 3</option>
-                                <option>Select one 4</option>
-                                <option>Select one 5</option>
+                                <option class ="select__option">Select one 1</option>
+                                <option class ="select__option">Select one 2</option>
+                                <option class ="select__option">Select one 3</option>
+                                <option class ="select__option">Select one 4</option>
+                                <option class ="select__option">Select one 5</option>
                             </select>
                         </div>
                         <button class="form__button" type="submit">Search</button>
