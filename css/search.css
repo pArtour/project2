@@ -111,9 +111,6 @@
 .form__address:-ms-input-placeholder {
     color: #347095;
 }
-
-}
-
 .form__address::-webkit-input-placeholder {
     color: #347095;
 }
@@ -137,14 +134,14 @@
 }
 
 .form__checkbox {
-    margin-right: 10px;
-    display: block;
+    display:none;
+    /* margin-right: 10px;
     width: 18px;
     height: 18px;
     color: #3a88ba;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.07), inset 0 0 0 2px #fcfdfd;
     border: 1px solid #bbbbbb;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.11) 0%, rgba(0, 0, 0, 0.11) 100%);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.11) 0%, rgba(0, 0, 0, 0.11) 100%); */
 
 }
 
@@ -157,7 +154,7 @@
     line-height: 21px;
 }
 .select__desc {
-    display:block
+    display:block;
     margin-right:21px;
 }
 .select__option {
